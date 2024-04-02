@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div class="">
     <img :src="src" :alt="alt">
-  </div>
 </template>
 
 <script>

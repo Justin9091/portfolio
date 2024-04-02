@@ -9,36 +9,59 @@ import MoleculeLanguageUpdate from "@/components/molecules/MoleculeLanguageUpdat
 <template>
   <div class="hero-container">
     <div class="header">
+      <MoleculeLanguageUpdate class="lang-updater"/>
+
       <AtomTitle :position="Position.LEFT" :size="Size.LARGE">{{ $t('hero.title') }}</AtomTitle>
       <AtomTitle :position="Position.LEFT" :size="Size.SMALL">{{ $t('hero.under_title') }}</AtomTitle>
-
-      <MoleculeLanguageUpdate />
     </div>
 
-    <div class="">
-      <AtomImage :alt="$t('hero.image.alt')" src="https://placehold.co/400x600"/>
+    <div class="img-container">
+      <AtomImage class="img" :alt="$t('hero.image.alt')" src="src/assets/img/Ik.png"/>
     </div>
   </div>
 </template>
 
 <style scoped>
+
 .hero-container {
   display: flex;
   justify-content: center;
-  gap: 5rem;
   align-items: center;
   height: 100vh;
-  max-width: 100vw;
+  max-width: 100%;
+  padding: 0 2rem; /* Added padding for better spacing */
+}
+
+.header {
+  text-align: center;
+}
+
+.img {
+  max-width: 100%; /* Make the image responsive */
+  max-height: 70vh; /* Limit the maximum height to avoid distortion */
+  object-fit: contain; /* Preserve aspect ratio */
 }
 
 @media (max-width: 768px) {
-  .header {
+  .hero-container {
+    flex-direction: column;
+    padding: 0;
   }
 
-  .hero-container {
-    text-align: center;
-    flex-direction: column;
-    justify-content: start;
+  .lang-updater {
+    position: static;
+  }
+
+  .img-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img {
+    width: 90%;
+    height: auto;
+    max-height: none;
   }
 }
 </style>
