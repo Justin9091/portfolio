@@ -1,10 +1,8 @@
 <script setup>
-
 import AtomTitle from "@/components/atom/AtomTitle.vue";
 import {Position} from "@/enums/Position.js";
 import {Size} from "@/enums/Size.js";
 import AtomImage from "@/components/atom/AtomImage.vue";
-import AtomSelect from "@/components/atom/AtomSelect.vue";
 import MoleculeLanguageUpdate from "@/components/molecules/MoleculeLanguageUpdate.vue";
 </script>
 
