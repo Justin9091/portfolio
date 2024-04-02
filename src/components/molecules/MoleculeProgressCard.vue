@@ -37,6 +37,7 @@ export default {
 
   padding: 30px;
   border-radius: var(--border-radius);
+  background: var(--highlight-color);
   transition: scale 250ms, box-shadow 250ms;
 }
 

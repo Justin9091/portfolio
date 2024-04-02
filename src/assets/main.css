@@ -2,21 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-  --border-radius : 5px;
-  --shadow-color: red;
-  --dark-background-color: #333;
+    --border-radius: 5px;
+    --background-color: #d3d3d3;
+    --highlight-color: #ffffff;
+    --text-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #333;
+        --highlight-color: #2a2a2a;
+        --text-color: white;
+    }
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  min-height: 100vh;
-  width: 100vw;
-  overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Reddit Mono', monospace;
+    font-family: 'Reddit Mono', monospace;
 }
 
 p, option {
@@ -24,14 +33,8 @@ p, option {
 }
 
 .container {
-  width: 100vw;
-  min-height: 100vh;
-  background: lightgray;
-}
-
-@media (prefers-color-scheme: dark) {
-  .container {
-    background-color: var(--dark-background-color);
-    color: #fff;
-  }
+    width: 100vw;
+    min-height: 100vh;
+    background: var(--background-color);
+    color: var(--text-color);
 }

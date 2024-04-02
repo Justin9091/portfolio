@@ -35,7 +35,6 @@ export default {
 }
 
 :root {
-  --background-color: #212121;
   --font: sans-serif;
 }
 
