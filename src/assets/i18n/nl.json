@@ -1,9 +1,28 @@
 {
+  "lang": {
+    "en": "Engels",
+    "nl": "Nederlands",
+    "update": "Taal aanpassen"
+  },
+  "hero": {
+    "title": "Hoi, ik ben Justin",
+    "under_title": "Student Informatica op Avans Hogeschool in 's-Hertogenbosch"
+  },
   "progress": {
     "title": "Progressie"
   },
-
   "work": {
-    "title": "Mijn werk"
+    "title": "Mijn work",
+    "beestje": {
+      "title": "Beestje op je feestje",
+      "description": "DESCRIPTION"
+    },
+    "bumbo": {
+      "title": "Bumbo",
+      "description": "DESCRIPTION"
+    }
+  },
+  "timeline": {
+    "title": "Tijdlijn"
   }
 }

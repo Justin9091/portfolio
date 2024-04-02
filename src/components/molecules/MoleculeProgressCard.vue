@@ -3,7 +3,6 @@ import AtomTitle from "@/components/atom/AtomTitle.vue";
 import AtomParagraph from "@/components/atom/AtomParagraph.vue";
 import AtomRange from "@/components/atom/AtomRange.vue";
 import {Position} from "@/enums/Position.js";
-import AtomIcon from "@/components/atom/AtomIcon.vue";
 </script>
 
 <template>

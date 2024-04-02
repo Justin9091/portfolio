@@ -5,12 +5,11 @@ import AtomImage from "@/components/atom/AtomImage.vue";
 <template>
   <div class="gallery-card-container">
     <AtomImage src="https://via.placeholder.com/150" alt="gallery card"/>
-    <p>{{ this.value }}</p>
+    <p>{{ $t(this.value) }}</p>
   </div>
 </template>
 
 <script>
-import {getCurrentInstance} from "vue";
 
 export default {
   name: "MoleculeGalleryCard",
@@ -22,6 +21,7 @@ export default {
     },
   },
 };
+
 </script>
 
 <style scoped>

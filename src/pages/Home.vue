@@ -4,6 +4,7 @@ import OrganismProgress from "@/components/organisms/OrganismProgress.vue";
 import OrganismTimeline from "@/components/organisms/OrganismTimeline.vue";
 import OrganismWork from "@/components/organisms/OrganismWork.vue";
 import OrganismHero from "@/components/organisms/OrganismHero.vue";
+import OrganismFooter from "@/components/organisms/OrganismFooter.vue";
 
 const progress = [
   {
@@ -37,6 +38,10 @@ const work = [
     title: "work.beestje.title",
     description: "work.beestje.description",
   },
+  {
+    title: "work.bumbo.title",
+    description: "work.bumbo.description",
+  }
 ]
 
 </script>
@@ -47,22 +52,11 @@ const work = [
     <OrganismWork :work="work" />
     <OrganismProgress :progress="progress"/>
     <OrganismTimeline />
+    <OrganismFooter />
   </div>
 </template>
 
 <style scoped>
 
-.container {
-  width: 100vw;
-  min-height: 100vh;
-  background: lightgray;
-}
-
-@media (prefers-color-scheme: dark) {
-  .container {
-    background-color: #333;
-    color: #fff;
-  }
-}
 
 </style>
