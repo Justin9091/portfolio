@@ -32,12 +32,19 @@ const progress = [
   }
 ];
 
+const work = [
+  {
+    title: "work.beestje.title",
+    description: "work.beestje.description",
+  },
+]
+
 </script>
 
 <template>
   <div class="container">
     <OrganismHero />
-    <OrganismWork />
+    <OrganismWork :work="work" />
     <OrganismProgress :progress="progress"/>
     <OrganismTimeline />
   </div>

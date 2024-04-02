@@ -4,6 +4,11 @@
   },
 
   "work": {
-    "title": "My work"
+    "title": "My work",
+
+    "beestje": {
+      "title": "Animal at your party",
+      "description": "DESCRIPTION"
+    }
   }
 }
