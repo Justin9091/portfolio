@@ -28,7 +28,7 @@ import {Position} from "@/enums/Position.js";
 }
 
 .outer {
-  border-left: 2px solid red;
+  border-left: 2px solid var(--primary-color);
 }
 
 .timeline {

@@ -10,7 +10,7 @@ import MoleculeLanguageUpdate from "@/components/molecules/MoleculeLanguageUpdat
 
 <template>
   <div class="hero-container">
-    <div class="">
+    <div class="header">
       <AtomTitle :position="Position.LEFT" :size="Size.LARGE">{{ $t('hero.title') }}</AtomTitle>
       <AtomTitle :position="Position.LEFT" :size="Size.SMALL">{{ $t('hero.under_title') }}</AtomTitle>
 
@@ -31,5 +31,16 @@ import MoleculeLanguageUpdate from "@/components/molecules/MoleculeLanguageUpdat
   align-items: center;
   height: 100vh;
   max-width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .header {
+  }
+
+  .hero-container {
+    text-align: center;
+    flex-direction: column;
+    justify-content: start;
+  }
 }
 </style>

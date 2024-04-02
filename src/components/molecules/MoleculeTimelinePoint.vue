@@ -34,20 +34,9 @@ export default {
   align-items: center;
 }
 
-:root {
-  --font: sans-serif;
-}
-
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background: var(--background-color);
-  font-family: var(--font);
-  display: flex;
-  justify-content: center;
 }
 
 .card {
@@ -55,10 +44,6 @@ body {
   position: relative;
   margin: 0 0 20px 20px;
   padding: 10px;
-  background: #333;
-  color: gray;
-  border-radius: 8px;
-  max-width: 400px;
 }
 
 .info {
@@ -68,7 +53,7 @@ body {
 }
 
 .title {
-  color: orangered;
+  color: var(--primary-color);
   position: relative;
 }
 
@@ -77,15 +62,9 @@ body {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: white;
+  background: var(--background-color);
   border-radius: 999px;
   left: -39px;
-  border: 3px solid orangered;
-}
-
-@media (prefers-color-scheme: dark) {
-  .title::before {
-    background: var(--dark-background-color);
-  }
+  border: 3px solid var(--primary-color);
 }
 </style>
