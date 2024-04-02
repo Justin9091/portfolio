@@ -44,6 +44,7 @@ export default {
   position: relative;
   margin: 0 0 20px 20px;
   padding: 10px;
+  width: 400px;
 }
 
 .info {

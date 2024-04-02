@@ -1,11 +1,13 @@
 <script setup>
 import AtomImage from "@/components/atom/AtomImage.vue";
+import AtomParagraph from "@/components/atom/AtomParagraph.vue";
 </script>
 
 <template>
   <div class="gallery-card-container">
-    <AtomImage src="https://via.placeholder.com/150" alt="gallery card"/>
-    <p>{{ $t(this.value) }}</p>
+    <AtomImage class="image" src="https://via.placeholder.com/250" alt="gallery card"/>
+
+    <AtomParagraph class="title">{{ $t(this.value) }}</AtomParagraph>
   </div>
 </template>
 
@@ -25,4 +27,17 @@ export default {
 </script>
 
 <style scoped>
+
+.gallery-card-container {
+  padding: 10px;
+  border-radius: var(--border-radius);
+  background: var(--highlight-color);
+  text-align: center;
+}
+
+.image {
+  padding: 0;
+  margin: 0;
+}
+
 </style>

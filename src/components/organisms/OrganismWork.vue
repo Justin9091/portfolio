@@ -7,10 +7,12 @@ import MoleculeCard from "@/components/molecules/MoleculeProgressCard.vue";
 </script>
 
 <template>
-  <AtomTitle :position="Position.CENTER">{{ $t("work.title") }}</AtomTitle>
+  <div class="work-container">
+    <AtomTitle class="work-title" :position="Position.CENTER">{{ $t("work.title") }}</AtomTitle>
 
-  <div class="gallery-container" id="work-gallery-container">
-    <MoleculeGalleryCard v-for="(currentWork, key) in work" :key="key" :value="currentWork.title" />
+    <div class="gallery-container" id="work-gallery-container">
+      <MoleculeGalleryCard v-for="(currentWork, key) in work" :key="key" :value="currentWork.title"/>
+    </div>
   </div>
 </template>
 
@@ -32,5 +34,15 @@ export default {
   justify-content: center;
   width: 100%;
   gap: 3em;
+}
+
+.work-title {
+  margin-bottom: 10px;
+}
+
+.work-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 </style>

@@ -10,10 +10,10 @@ import {Position} from "@/enums/Position.js";
 
     <div class="timeline">
       <div class="outer">
-        <MoleculeTimeLinePoint year="2019" description="Description 1"/>
-        <MoleculeTimeLinePoint year="2020" description="Description 2"/>
-        <MoleculeTimeLinePoint year="2021" description="Description 3"/>
-        <MoleculeTimeLinePoint year="2022" description="Description 4"/>
+        <MoleculeTimeLinePoint year="2016" :description="$t('timeline.2016')"/>
+        <MoleculeTimeLinePoint year="2019" :description="$t('timeline.2019')"/>
+        <MoleculeTimeLinePoint year="2020" :description="$t('timeline.2020')"/>
+        <MoleculeTimeLinePoint year="2022" :description="$t('timeline.2022')"/>
       </div>
     </div>
   </div>
@@ -25,6 +25,7 @@ import {Position} from "@/enums/Position.js";
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 30px;
 }
 
 .outer {

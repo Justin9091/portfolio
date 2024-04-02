@@ -2,27 +2,35 @@
   "lang": {
     "en": "Engels",
     "nl": "Nederlands",
-    "update": "Taal aanpassen"
+    "update": "Taal bijwerken"
   },
+
   "hero": {
-    "title": "Hoi, ik ben Justin",
-    "under_title": "Student Informatica op Avans Hogeschool in 's-Hertogenbosch"
+    "title": "Hallo, ik ben Justin",
+    "under_title": "Student Informatica aan de Avans Hogeschool in 's-Hertogenbosch"
   },
   "progress": {
-    "title": "Progressie"
+    "title": "Voortgang",
+    "java": "Veel hobbyprojecten en een schoolproject: Sagrada",
+    "net": "Het project voor school: Bumbo en de website Dier op jouw feestje",
+    "vue": "Een paar hobbyprojecten. Deze website is ook gemaakt met Vue.js",
+    "laravel": "Hobbyprojecten en een groot schoolproject: een webshop."
   },
   "work": {
     "title": "Mijn werk",
     "beestje": {
-      "title": "Beestje op je feestje",
-      "description": "DESCRIPTION"
+      "title": "Beestje op je feestje"
     },
     "bumbo": {
-      "title": "Bumbo",
-      "description": "DESCRIPTION"
+      "title": "Bumbo"
     }
   },
+
   "timeline": {
-    "title": "Tijdlijn"
+    "title": "Tijdlijn",
+    "2016": "Na het afronden van mijn VMBO-TL verveelde ik me tijdens de vakantie en begon ik met het ontwikkelen van statische HTML- en CSS-websites. Later begon ik met mijn opleiding tot onderwijsassistent aan het KW1C in 's-Hertogenbosch.",
+    "2019": "Ik begon Java te leren samen met MySQL om Minecraft-plugins te bouwen als hobby.",
+    "2020": "Dit jaar heb ik mijn opleiding tot onderwijsassistent afgerond en ben ik begonnen met de opleiding tot basisschoolleraar aan de Fontys Hogeschool in Eindhoven.",
+    "2022": "Ik besloot mijn huidige opleiding te stoppen en te beginnen met Informatica aan de Avans Hogeschool in 's-Hertogenbosch."
   }
 }

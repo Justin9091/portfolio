@@ -10,21 +10,27 @@
     "under_title": "Student Informatica at Avans Hogeschool in 's-Hertogenbosch"
   },
   "progress": {
-    "title": "Progress"
+    "title": "Progress",
+    "java": "A lot of hobby projects and a school project: Sagrada",
+    "net": "The project for school: Bumbo and the Animal at your party website",
+    "vue": "A couple of hobby projects. This website is also made with Vue.js",
+    "laravel": "Hobby projects and a big school project: a webshop."
   },
   "work": {
     "title": "My work",
     "beestje": {
-      "title": "Animal at your party",
-      "description": "DESCRIPTION"
+      "title": "Animal at your party"
     },
     "bumbo": {
-      "title": "Bumbo",
-      "description": "DESCRIPTION"
+      "title": "Bumbo"
     }
   },
 
   "timeline": {
-    "title": "Timeline"
+    "title": "Timeline",
+    "2016": "After I finished my VMBO-TL I was bored in the vacation and I started developing static HTML and CSS sites. Later on I started with my teachers assistant education at the KW1C in 's-Hertogenbosch.",
+    "2019": "I started learning Java alongside MySQL to build Minecraft plugins as a hobby.",
+    "2020": "This year I finished my teachers assistant education and started with the eduction of becoming I primary school teacher at the Fontys Hogeschool in Eindhoven.",
+    "2022": "I decided to quite my current education and start with Informatica at Avans Hogeschool in 's-Hertogenbosch."
   }
 }

@@ -30,10 +30,19 @@ export default {
 
 <style scoped>
 
+.progress-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
 .cards-container {
   display: flex;
   gap: 3em;
   justify-content: center;
+  padding: 10px;
+  margin-inline: 10vw;
 }
 
 @media (max-width: 768px) {

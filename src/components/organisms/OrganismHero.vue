@@ -29,23 +29,28 @@ import MoleculeLanguageUpdate from "@/components/molecules/MoleculeLanguageUpdat
   align-items: center;
   height: 100vh;
   max-width: 100%;
-  padding: 0 2rem; /* Added padding for better spacing */
+  padding: 0 2rem;
 }
 
 .header {
   text-align: center;
+  padding-right: 50px;
 }
 
 .img {
-  max-width: 100%; /* Make the image responsive */
-  max-height: 70vh; /* Limit the maximum height to avoid distortion */
-  object-fit: contain; /* Preserve aspect ratio */
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
   .hero-container {
     flex-direction: column;
     padding: 0;
+  }
+
+  .header {
+    padding-right: 0;
   }
 
   .lang-updater {

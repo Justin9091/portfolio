@@ -16,7 +16,7 @@ library.add(far)
 import { createI18n } from 'vue-i18n'
 
 const i18n = createI18n({
-    locale: 'en',
+    locale: 'nl',
     fallbackLocale: 'en',
     messages: {
         en:  en,
