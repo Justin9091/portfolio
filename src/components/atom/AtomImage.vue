@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <img :src="src"  :alt="alt">
+    <img src="/img/Ik.png"  :alt="alt">
 </template>
 
 <script>
