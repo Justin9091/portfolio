@@ -7,12 +7,15 @@
 
   "hero": {
     "title": "Hallo, ik ben Justin",
+    "image": {
+      "alt": "Een foto van mij"
+    },
     "under_title": "Student Informatica aan de Avans Hogeschool in 's-Hertogenbosch"
   },
   "progress": {
     "title": "Voortgang",
     "java": "Veel hobbyprojecten en een schoolproject: Sagrada",
-    "net": "Het project voor school: Bumbo en de website Dier op jouw feestje",
+    "net": "Het project voor school: Bumbo en de website Beestje op je feestje",
     "vue": "Een paar hobbyprojecten. Deze website is ook gemaakt met Vue.js",
     "laravel": "Hobbyprojecten en een groot schoolproject: een webshop."
   },

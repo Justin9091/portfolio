@@ -7,7 +7,7 @@ import AtomParagraph from "@/components/atom/AtomParagraph.vue";
   <div class="gallery-card-container">
     <AtomImage class="image" src="https://via.placeholder.com/250" alt="gallery card"/>
 
-    <AtomParagraph class="title">{{ $t(this.value) }}</AtomParagraph>
+    <AtomParagraph class="title">{{ $t(value) }}</AtomParagraph>
   </div>
 </template>
 

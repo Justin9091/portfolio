@@ -7,6 +7,9 @@
 
   "hero": {
     "title": "Hello, I'm Justin",
+    "image": {
+      "alt": "A picture of me"
+    },
     "under_title": "Student Informatica at Avans Hogeschool in 's-Hertogenbosch"
   },
   "progress": {

@@ -5,8 +5,8 @@ import AtomIcon from "@/components/atom/AtomIcon.vue";
 
 <template>
   <div class="select">
-    <div @click="this.toggleSelect()" class="button">
-      <p>{{ $t(this.toggle) }}</p>
+    <div @click="toggleSelect()" class="button">
+      <p>{{ $t(toggle) }}</p>
       <AtomIcon class="arrow" :type="['fas', 'arrow-down']"/>
     </div>
 
@@ -37,7 +37,6 @@ export default {
   methods: {
     toggleSelect() {
       this.isOpen = !this.isOpen;
-      console.log(this.isOpen)
 
       if (this.isOpen) {
         this.openSelect();

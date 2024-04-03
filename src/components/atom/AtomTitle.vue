@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h1 :style="style">
+  <h1>
     <slot></slot>
   </h1>
 </template>
@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       textAlign: this.position,
-      size: this.size
+      fontSize: this.size
     };
   }
 }
@@ -38,6 +38,6 @@ h1 {
   padding: 0;
   margin: 0;
   text-align: v-bind('textAlign');
-  font-size: v-bind('size');
+  font-size: v-bind('fontSize');
 }
 </style>

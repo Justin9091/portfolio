@@ -3,8 +3,8 @@ import AtomSelect from "@/components/atom/AtomSelect.vue";
 </script>
 
 <template>
-  <AtomSelect toggle="Update language" class="select">
-    <option @click="this.updateLanguage" v-for="(lang) in langs" :key="lang" :value="lang">{{ $t('lang.'+lang) }}</option>
+  <AtomSelect toggle="lang.update" class="select">
+    <option @click="updateLanguage" v-for="(lang) in langs" :key="lang" :value="lang">{{ $t('lang.'+lang) }}</option>
   </AtomSelect>
 </template>
 
