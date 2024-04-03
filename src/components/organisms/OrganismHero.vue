@@ -65,6 +65,7 @@ import img from "@/assets/img/Ik.png";
     width: 90vw;
     display: flex;
     justify-content: center;
+    overflow: hidden;
   }
 
   .img {
