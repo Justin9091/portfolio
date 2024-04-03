@@ -18,6 +18,9 @@ export default {
       type: String,
       required: true
     }
+  },
+
+  methods: {
   }
 }
 </script>
