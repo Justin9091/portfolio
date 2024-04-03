@@ -37,10 +37,10 @@ export default {
 }
 
 .work-title {
-  margin-bottom: 10px;
 }
 
 .work-container {
+  padding-block: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
