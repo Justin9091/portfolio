@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <img :src=source :alt="alt">
+    <img :src="source" :alt="alt">
 </template>
 
 <script>
@@ -18,10 +18,6 @@ export default {
       type: String,
       required: true
     }
-  },
-
-  mounted() {
-    console.log(this.source)
   }
 }
 </script>
