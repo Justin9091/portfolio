@@ -57,11 +57,12 @@ import img from "@/assets/img/Ik.png";
   }
 
   .lang-updater {
+    transform: translateY(10px);
     position: static;
   }
 
   .img-container {
-    width: 100vw;
+    width: 90vw;
     display: flex;
     justify-content: center;
   }
