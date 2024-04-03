@@ -45,4 +45,16 @@ export default {
   justify-content: center;
   flex-direction: column;
 }
+
+@media (max-width: 768px) {
+  .gallery-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .gallery-container > * {
+    width: 80%;
+  }
+}
 </style>

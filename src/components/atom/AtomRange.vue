@@ -4,7 +4,7 @@
 
 <template>
   <div class="range-container">
-    <input type="range" :value="value" :style="style"/>
+    <input type="range" :value="value" :style="style" :disabled="!this.changeable" />
   </div>
 </template>
 
@@ -20,6 +20,10 @@ export default {
     color: {
       type: String,
       default: "blue",
+    },
+    changeable: {
+      type: Boolean,
+      default: true,
     }
   },
   computed: {
@@ -41,7 +45,8 @@ input[type="range"] {
   opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
-  width: 75%;
+  width: 100%;
+
 }
 
 .range-container {

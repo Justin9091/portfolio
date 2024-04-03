@@ -5,7 +5,7 @@ import AtomParagraph from "@/components/atom/AtomParagraph.vue";
 
 <template>
   <div class="gallery-card-container">
-    <AtomImage class="image" src="https://via.placeholder.com/250" alt="gallery card"/>
+    <AtomImage class="image" source="https://via.placeholder.com/250" alt="gallery card"/>
 
     <AtomParagraph class="title">{{ $t(value) }}</AtomParagraph>
   </div>
@@ -38,6 +38,12 @@ export default {
 .image {
   padding: 0;
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .image {
+    width: 100%;
+  }
 }
 
 </style>

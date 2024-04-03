@@ -3,14 +3,14 @@
 </script>
 
 <template>
-    <img src="/img/Ik.png"  :alt="alt">
+    <img :src=source :alt="alt">
 </template>
 
 <script>
 export default {
   name: 'AtomImage',
   props: {
-    src: {
+    source: {
       type: String,
       required: true
     },
@@ -18,6 +18,10 @@ export default {
       type: String,
       required: true
     }
+  },
+
+  mounted() {
+    console.log(this.source)
   }
 }
 </script>

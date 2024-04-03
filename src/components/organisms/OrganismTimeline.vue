@@ -35,5 +35,7 @@ import {Position} from "@/enums/Position.js";
 .timeline {
   margin: 20px auto;
   padding: 20px;
+  max-width: 100vw;
+  box-sizing: border-box;
 }
 </style>

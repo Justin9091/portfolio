@@ -1,9 +1,9 @@
 <script setup>
 import AtomTitle from "@/components/atom/AtomTitle.vue";
-import {Position} from "@/enums/Position.js";
-import {Size} from "@/enums/Size.js";
 import AtomImage from "@/components/atom/AtomImage.vue";
 import MoleculeLanguageUpdate from "@/components/molecules/MoleculeLanguageUpdate.vue";
+import {Position} from "@/enums/Position.js";
+import {Size} from "@/enums/Size.js";
 </script>
 
 <template>
@@ -16,7 +16,7 @@ import MoleculeLanguageUpdate from "@/components/molecules/MoleculeLanguageUpdat
     </div>
 
     <div class="img-container">
-      <AtomImage class="img" :alt="$t('hero.image.alt')" src="/img/Ik.png"/>
+      <AtomImage class="img" :alt="$t('hero.image.alt')" source="/img/Ik.png" />
     </div>
   </div>
 </template>

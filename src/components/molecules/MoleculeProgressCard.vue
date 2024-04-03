@@ -10,7 +10,7 @@ import {Position} from "@/enums/Position.js";
     <AtomTitle :position="Position.CENTER">{{ progress.title }}</AtomTitle>
     <AtomParagraph class="description">{{ $t('progress.' + progress.title.toLowerCase().replace('.', '')) }}</AtomParagraph>
 
-    <AtomRange :value="progress.progress" :color="progress.color"/>
+    <AtomRange :changeable="false" :value="progress.progress" :color="progress.color"/>
   </div>
 </template>
 
