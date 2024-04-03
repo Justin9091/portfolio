@@ -1,11 +1,13 @@
 <script setup>
 import AtomImage from "@/components/atom/AtomImage.vue";
 import AtomParagraph from "@/components/atom/AtomParagraph.vue";
+
 </script>
 
 <template>
   <div class="gallery-card-container">
-    <AtomImage class="image" source="https://via.placeholder.com/250" alt="gallery card"/>
+    <img v-if="$t(value) === 'Bumbo'" class="image" src="@/assets/img/Bumbo.png" :alt="$t(value)"/>
+    <img v-if="$t(value) === 'Beestje op je feestje'" class="image" src="@/assets/img/Beestje.png" :alt="$t(value)"/>
 
     <AtomParagraph class="title">{{ $t(value) }}</AtomParagraph>
   </div>
@@ -20,7 +22,7 @@ export default {
     value: {
       type: String,
       default: "Gallery Card",
-    },
+    }
   },
 };
 
@@ -36,6 +38,10 @@ export default {
 }
 
 .image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
   padding: 0;
   margin: 0;
 }

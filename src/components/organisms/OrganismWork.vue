@@ -36,9 +36,6 @@ export default {
   gap: 3em;
 }
 
-.work-title {
-}
-
 .work-container {
   padding-block: 10px;
   display: flex;
