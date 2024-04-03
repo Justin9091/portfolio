@@ -16,7 +16,7 @@ import {Size} from "@/enums/Size.js";
     </div>
 
     <div class="img-container">
-      <AtomImage class="img" :alt="$t('hero.image.alt')" source="/portfolio/src/assets/img/Ik.png" />
+      <AtomImage class="img" :alt="$t('hero.image.alt')" source="@/assets/img/Ik.png" />
     </div>
   </div>
 </template>
