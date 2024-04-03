@@ -16,7 +16,7 @@ import MoleculeLanguageUpdate from "@/components/molecules/MoleculeLanguageUpdat
     </div>
 
     <div class="img-container">
-      <AtomImage class="img" :alt="$t('hero.image.alt')" src="public/img/Ik.png"/>
+      <AtomImage class="img" :alt="$t('hero.image.alt')" src="/img/Ik.png"/>
     </div>
   </div>
 </template>
